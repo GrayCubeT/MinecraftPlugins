@@ -1,5 +1,6 @@
 package main;
 
+import java.util.HashMap;
 
 /*
  * This class provides a basis for all data regarding any character
@@ -8,10 +9,13 @@ package main;
  * It is attached to all players, npcs, custom mobs
  */
 public class CharacterSheet {
-	
-	
-	
-	CharacterSheet() {
+	int x = 6;
+	public CharacterSheet(int y) {
+		x = y;
+	}
+	public static void main(String[] args) {
+		CharacterSheet c = new CharacterSheet(5);
+		HashMap<String, Integer> map = new HashMap<String, Integer>();
 		
 	}
 }	
