@@ -13,6 +13,7 @@ public class CharacterSheet {
 	public CharacterSheet(int y) {
 		x = y;
 	}
+	//testing push
 	public static void main(String[] args) {
 		CharacterSheet c = new CharacterSheet(5);
 		HashMap<String, Integer> map = new HashMap<String, Integer>();
